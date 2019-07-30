@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot", "Bot\Bot.csproj", "{63A26D71-6663-45E8-A6A7-BB034283B9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lavalink", "Lavalink", "{82193855-FE9C-4A1D-808F-157E56A79988}"
+	ProjectSection(SolutionItems) = preProject
+		Lavalink\application.yml = Lavalink\application.yml
+		Lavalink\Lavalink.jar = Lavalink\Lavalink.jar
+		Lavalink\Run.bat = Lavalink\Run.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A26D71-6663-45E8-A6A7-BB034283B9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A26D71-6663-45E8-A6A7-BB034283B9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A26D71-6663-45E8-A6A7-BB034283B9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A26D71-6663-45E8-A6A7-BB034283B9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37158FE6-01C1-474F-AF5D-B8D51A48CC6D}
+	EndGlobalSection
+EndGlobal

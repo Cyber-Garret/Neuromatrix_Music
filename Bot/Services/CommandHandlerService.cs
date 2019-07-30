@@ -38,7 +38,7 @@ namespace Bot.Services
 			var context = new ShardedCommandContext(discord, msg);
 
 			var argPos = 0;
-			// Ignore if not mention this bot or command not start from char ! REMARK: Audio bot allow only on Mention.
+			// Ignore if not mention this bot or command not start from char ! REMARK: This audio bot allow commands only on Mention.
 			if (!msg.HasMentionPrefix(discord.CurrentUser, ref argPos)) return;
 			{
 
